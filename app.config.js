@@ -1,82 +1,82 @@
 const appConfig = {
     // app title
-    name: "Fantom Explorer",
+    name: "DREP2.0 Explorer",
     // app description
     description:
-        "Fantom Explorer allows you to explore and search the Fantom blockchain for transactions, addresses and blocks",
+        "DREP2.0 Explorer allows you to explore and search the DREP2.0 blockchain for transactions, addresses and blocks",
     // app keywords
-    keywords: "fantom, explorer, search, blockchain, crypto, currency",
+    keywords: "drep, explorer, search, blockchain, crypto, currency",
     // apollo client settings
     apollo: {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: 'https://xapi-nodea.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodeb.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodec.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-noded.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodee.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodef.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodeg.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodeh.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodei.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodej.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodek.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodel.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-nodem.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'https://xapi-noden.fantom.network/',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
@@ -85,7 +85,7 @@ const appConfig = {
         defaultProviderIndex: "random"
     },
     //
-    useTestnet: false,
+    useTestnet: true,
     // use 'hash' mode in vue router
     routerHashMode: false,
     // testnet config
@@ -93,7 +93,7 @@ const appConfig = {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: 'https://xapi.testnet.fantom.network/api',
+                http: 'http://localhost:16761/api',
                 // for subscriptions
                 ws: '',
             },
@@ -104,7 +104,7 @@ const appConfig = {
     // pwa settings
     pwa: {
         // name used in pwa manifest
-        name: "Fantom Explorer"
+        name: "DREP2.0 Explorer"
     },
     // default options for production build
     build: {
