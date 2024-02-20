@@ -11,72 +11,72 @@ const appConfig = {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
@@ -93,7 +93,7 @@ const appConfig = {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: 'http://localhost:16761/api',
+                http: 'http://chainapi-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
