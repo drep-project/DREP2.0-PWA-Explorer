@@ -11,72 +11,72 @@ const appConfig = {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
@@ -93,7 +93,7 @@ const appConfig = {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: 'http://apiserver-testnet.drep.org',
+                http: 'https://apiserver-testnet.drep.org',
                 // for subscriptions
                 ws: '',
             },
