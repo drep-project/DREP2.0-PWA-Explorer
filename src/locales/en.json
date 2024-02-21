@@ -7,7 +7,7 @@
     "fee": "Fee",
     "amount": "Amount",
     "time": "Time",
-    "timestamp": "Timestamp",
+    "timestamp": "Timestamp ",
     "success": "Success",
     "error": "Error",
     "pending": "Pending",
