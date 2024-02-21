@@ -9,28 +9,28 @@
                         <div class="row no-collapse">
                             <div class="col-5 f-row-label">{{ $t('view_validators_info.total_self_staked') }}</div>
                             <div class="col">
-                                <div v-show="'fSelfStaked' in dTotals">{{ dTotals.fSelfStaked }} FTM <span v-if="cSelfStaked">({{ cSelfStaked }}%)</span></div>
+                                <div v-show="'fSelfStaked' in dTotals">{{ dTotals.fSelfStaked }} DREP <span v-if="cSelfStaked">({{ cSelfStaked }}%)</span></div>
                             </div>
                         </div>
 
                         <div class="row no-collapse">
                             <div class="col-5 f-row-label">{{ $t('view_validators_info.total_delegated') }}</div>
                             <div class="col">
-                                <div v-show="'fTotalDelegated' in dTotals">{{ dTotals.fTotalDelegated }} FTM <span v-if="cDelegated">({{ cDelegated }}%)</span></div>
+                                <div v-show="'fTotalDelegated' in dTotals">{{ dTotals.fTotalDelegated }} DREP <span v-if="cDelegated">({{ cDelegated }}%)</span></div>
                             </div>
                         </div>
 
                         <div class="row no-collapse">
                             <div class="col-5 f-row-label">{{ $t('view_validators_info.total_staked') }}</div>
                             <div class="col">
-                                <div v-show="'fTotalStaked' in dTotals">{{ dTotals.fTotalStaked }} FTM <span v-if="cStaked">({{ cStaked }}%)</span></div>
+                                <div v-show="'fTotalStaked' in dTotals">{{ dTotals.fTotalStaked }} DREP <span v-if="cStaked">({{ cStaked }}%)</span></div>
                             </div>
                         </div>
 
                         <div class="row no-collapse">
                             <div class="col-5 f-row-label">{{ $t('view_validators_info.daily_rewards') }}</div>
                             <div class="col">
-                                <div v-show="cDailyRewards">{{ formatNumberByLocale(numToFixed(cDailyRewards, 0)) }} FTM</div>
+                                <div v-show="cDailyRewards">{{ formatNumberByLocale(numToFixed(cDailyRewards, 0)) }} DREP</div>
                             </div>
                         </div>
 
@@ -38,7 +38,7 @@
                         <div class="row no-collapse">
                             <div class="col-5 f-row-label">{{ $t('view_validators_info.total_supply') }}</div>
                             <div class="col">
-                                <div v-show="dTotalSupply">{{ formatNumberByLocale(numToFixed(dTotalSupply, 0)) }} FTM</div>
+                                <div v-show="dTotalSupply">{{ formatNumberByLocale(numToFixed(dTotalSupply, 0)) }} DREP</div>
                             </div>
                         </div>
 <!--
