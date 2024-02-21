@@ -1,31 +1,31 @@
 <template>
     <ul class="socialmedialinks no-markers">
         <li>
-            <a href="https://twitter.com/FantomFDN" target="_blank" rel="nofollow" title="Fantom on Twitter">
+            <a href="https://twitter.com/DrepOfficial" target="_blank" rel="nofollow" title="Fantom on Twitter">
                 <icon data="@/assets/svg/social-media2/x.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Twitter</span>
             </a>
         </li>
         <li>
-            <a href="http://chat.fantom.network/" target="_blank" rel="nofollow" title="Fantom on Discord">
+            <a href="https://discord.com/invite/lookfor" target="_blank" rel="nofollow" title="Fantom on Discord">
                 <icon data="@/assets/svg/social-media2/discord.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Discord</span>
             </a>
         </li>
         <li>
-            <a href="https://t.me/Fantom_English" target="_blank" rel="nofollow" title="Fantom on Telegram">
+            <a href="https://t.me/drep_foundation" target="_blank" rel="nofollow" title="Fantom on Telegram">
                 <icon data="@/assets/svg/social-media2/telegram.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Telegram</span>
             </a>
         </li>
         <li>
-            <a href="https://www.reddit.com/r/FantomFoundation/" target="_blank" rel="nofollow" title="Fantom on Reddit">
-                <icon data="@/assets/svg/social-media2/reddit.svg" width="32" height="32"></icon>
-                <span class="socialmedialinks_label">Reddit</span>
+            <a href="https://drep-foundation.medium.com/" target="_blank" rel="nofollow" title="Fantom on Reddit">
+                <icon data="@/assets/svg/social-media/medium2.svg" width="32" height="32"></icon>
+                <span class="socialmedialinks_label">Medium</span>
             </a>
         </li>
         <li>
-            <a href="https://github.com/Fantom-Foundation" target="_blank" rel="nofollow" title="Fantom on Github">
+            <a href="https://github.com/drep-project/DREP2.0-PWA-Explorer" target="_blank" rel="nofollow" title="Fantom on Github">
                 <icon data="@/assets/svg/social-media/github.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Github</span>
             </a>
