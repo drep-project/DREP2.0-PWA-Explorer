@@ -6,12 +6,12 @@
                 <span class="socialmedialinks_label">Twitter</span>
             </a>
         </li>
-        <li>
+        <!-- <li>
             <a href="https://discord.com/invite/lookfor" target="_blank" rel="nofollow" title="Fantom on Discord">
                 <icon data="@/assets/svg/social-media2/discord.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Discord</span>
             </a>
-        </li>
+        </li> -->
         <li>
             <a href="https://t.me/drep_foundation" target="_blank" rel="nofollow" title="Fantom on Telegram">
                 <icon data="@/assets/svg/social-media2/telegram.svg" width="32" height="32"></icon>

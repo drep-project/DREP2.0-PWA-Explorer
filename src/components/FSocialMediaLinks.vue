@@ -5,11 +5,11 @@
                 <icon data="@/assets/svg/social-media/twitter.svg" width="24" height="24"></icon>
             </a>
         </li>
-        <li>
+        <!-- <li>
             <a href="https://discord.com/invite/lookfor" target="_blank" rel="nofollow" title="Fantom on Discord">
                 <icon data="@/assets/svg/social-media/discord.svg" width="24" height="24"></icon>
             </a>
-        </li>
+        </li> -->
         <li>
             <a href="https://t.me/drep_foundation" target="_blank" rel="nofollow" title="Fantom on Reddit">
                 <icon data="@/assets/svg/social-media2/telegram.svg" width="24" height="24"></icon>
