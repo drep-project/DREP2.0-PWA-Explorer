@@ -25,7 +25,7 @@
             </a>
         </li>
         <li>
-            <a href="https://github.com/drep-project/DREP2.0-PWA-Explorer" target="_blank" rel="nofollow" title="Fantom on Github">
+            <a href="https://github.com/drep-project" target="_blank" rel="nofollow" title="Fantom on Github">
                 <icon data="@/assets/svg/social-media/github.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Github</span>
             </a>
