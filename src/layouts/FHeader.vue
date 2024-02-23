@@ -4,7 +4,7 @@
             <div class="row no-collapse align-items-center">
                 <div class="col-2">
                     <router-link to="/" class="logo" :aria-label="$t('view_home.back_to_home')">
-                        <icon data="@/assets/svg/drep_logo.svg" width="100" height="48" style="color: #fff;"></icon>
+                        <icon data="@/assets/svg/drep_logo.svg" width="100" height="32" style="color: #fff;"></icon>
                         <!-- <img src="/fantom-logo.svg" alt="Fantom logo" class="not-fluid logo-white"> -->
                         <!-- <img src="/fantom-logo-blue.svg" alt="Fantom logo" class="not-fluid logo-blue"> -->
                     </router-link>
