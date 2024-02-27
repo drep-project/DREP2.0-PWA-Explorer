@@ -1,5 +1,5 @@
 {
-    "name": "fantom-explorer",
+    "name": "drep-explorer",
     "version": "0.1.0",
     "scripts": {
         "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",

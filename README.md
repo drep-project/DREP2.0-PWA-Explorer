@@ -1,6 +1,6 @@
-# Fantom PWA Explorer
+# Drep PWA Explorer
 
-JavaScript and Vue based Fantom pwa explorer.
+JavaScript and Vue based Drep pwa explorer.
 
 We are using:
 * Node / NPM

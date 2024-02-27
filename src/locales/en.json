@@ -86,7 +86,7 @@
         "validators": "@:validators",
         "accounts": "Accounts",
         "transactions": "@:transactions",
-        "fantom_mainnet_nodes": "Fantom Mainnet Nodes",
+        "fantom_mainnet_nodes": "Drep Mainnet Nodes",
         "latest_blocks": "Latest Blocks",
         "latest_transactions": "Latest Transactions",
         "view_all_transactions": "All transactions",

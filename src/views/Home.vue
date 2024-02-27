@@ -70,7 +70,7 @@
                         <h2 class="h3">
                             {{ $t('view_home.fantom_mainnet_nodes') }}
                             <f-info show-on-hover button-tooltip="" window-class="light" window-style="max-width: 350px;">
-                                All RPC, read-only and validator nodes synced to Fantom Opera Mainnet.
+                                All RPC, read-only and validator nodes synced to Drep Opera Mainnet.
                             </f-info>
                         </h2>
                         <network-nodes-map />
