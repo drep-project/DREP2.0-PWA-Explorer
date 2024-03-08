@@ -49,7 +49,7 @@
                     chainId : 2722,
                     networkName:'DREP Testnet',
                     rpcUrl:"https://chainapi-testnet.drep.org/",
-                    explorerUrl:'',
+                    explorerUrl:'https://explore-testnet.drep.org/',
                     symbolName:'DREP'
                 }
                 wallet.request({
@@ -63,7 +63,7 @@
                         decimals: 18
                     },
                     rpcUrls: [current.rpcUrl],
-                    // blockExplorerUrls: [current.explorerUrl]
+                    blockExplorerUrls: [current.explorerUrl]
                 }]
                 }).then(res=>{
                     console.log('res',res)
