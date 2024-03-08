@@ -9,6 +9,9 @@
                         </a>
                         <router-link v-else :to="item.url">{{ item.title }}</router-link>
                     </li>
+                    <li class="metamask_img" @click="addWalletChain">
+                        <img src="/img/icon-metamask.png" alt="">
+                    </li>
                 </ul>
             </slot>
         </nav>
@@ -39,6 +42,35 @@
             }
         },
 
+        methods: {
+            addWalletChain(){
+                let wallet = window.ethereum
+                let current = {
+                    chainId : 2722,
+                    networkName:'DREP Testnet',
+                    rpcUrl:"https://chainapi-testnet.drep.org/",
+                    explorerUrl:'',
+                    symbolName:'DREP'
+                }
+                wallet.request({
+                method: 'wallet_addEthereumChain',
+                params: [{
+                    chainId: "0x"+current.chainId.toString(16),
+                    chainName: current.networkName,
+                    nativeCurrency: {
+                        name: current.symbolName,
+                        symbol: current.symbolName,
+                        decimals: 18
+                    },
+                    rpcUrls: [current.rpcUrl],
+                    // blockExplorerUrls: [current.explorerUrl]
+                }]
+                }).then(res=>{
+                    console.log('res',res)
+                })
+            }  
+        },
+
         computed: {
             cItems() {
                 this.setIds(this.items);
@@ -58,6 +90,8 @@
         nav {
             ul {
                 text-align: end;
+                display: flex;
+                align-items: center;
                 li {
                     display: inline-block;
                     margin-inline-start: 4px;
@@ -76,6 +110,15 @@
                             color: #fff;
                             text-decoration: none;
                         }
+                    }
+                }
+                .metamask_img{
+                    width: 32px;
+                    height: 32px;
+                    cursor: pointer;
+                    img{
+                        width: 100%;
+                        height: 100%;
                     }
                 }
             }

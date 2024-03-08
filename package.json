@@ -2,7 +2,7 @@
     "name": "drep-explorer",
     "version": "0.1.0",
     "scripts": {
-        "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+        "serve": "vue-cli-service serve",
         "serve.production": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve --mode production",
         "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
         "lint": "vue-cli-service lint",
